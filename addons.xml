@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon
+    id="plugin.video.albert"
+    name="albert"
+    version="0.0.1"
+    provider-name="albert">
+   <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.addon.common" version="2.0.0" />
+   </requires>
+   <extension point="xbmc.python.pluginsource" library="plugin.py" >
+	 <provides>video</provides>
+   </extension>
+   <extension point="xbmc.python.module" library="lib" />
+   <extension point="xbmc.addon.metadata">
+	 <summary lang="en"></summary>
+	 <description lang="en">Get your Daily Dose of Movies and Tv Shows Here</description>
+	 <platform>all</platform>
+     <language></language>
+	 <license></license>
+	 <forum></forum>
+	 <website></website>
+	 <source></source>
+	 <email></email>
+   </extension>
+</addon>
+
+<addon
     id="plugin.video.mutttsnutz"
     name="The Mutts Nuts"
     version="1000.000.004"

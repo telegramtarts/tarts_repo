@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.icechannel.extn.telegramtarts" version="0.0.1" name="Telegram Tarts iStream Extensions" provider-name="Telegram Tarts">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="repository.istream" version="1.0"/> 
+	    <import addon="script.icechannel" version="0.0.1"/>
+	    <import addon="script.module.requests" version="0.0.1"/>
+    </requires>
+	<extension library="default.py" point="xbmc.service" />
+		<summary lang="en">iStream Extensions by Telegram Tarts</summary>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension library="service.py" point="xbmc.service"  start="startup"/>	
+    <extension point="xbmc.addon.metadata">
+		<description lang="en">iStream Extensions by Telegram Tarts Movies Tv Shows Kids Live</description>
+		<!--<provides>video</provides>-->
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>

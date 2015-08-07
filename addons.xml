@@ -101,4 +101,34 @@
 		<email></email>
     </extension>
 </addon>
+
+<addon id="skin.collective.helix" name="The Collective Skin Helix beta" provider-name="Coolwave, Team Xunitytalk" version="0.0.4">
+  <requires>
+		<import addon="xbmc.gui" version="5.3.0" />
+  </requires>
+  <extension debugging="false" defaultthemename="textures.xbt" effectslowdown="0.75" point="xbmc.gui.skin">
+    <res aspect="16:9" default="true" folder="720p" height="720" width="1280" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Collective beta Helix by Coolwave / Support Xunitytalk.com</summary>
+	<description lang="en">The Collective Skin for Helix</description>
+    <disclaimer lang="en">VISIT XUNITYTALK.COM</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="skin.confluence.helix.collective.mod" name="Collective Helix Confluence Mod" provider-name="Coolwave" version="0.0.2">
+  <requires>
+		<import addon="xbmc.gui" version="5.3.0" />
+  </requires>
+  <extension debugging="false" defaultthemename="textures.xbt" effectslowdown="0.75" point="xbmc.gui.skin">
+    <res aspect="16:9" default="true" folder="720p" height="720" width="1280" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Collective Helix Confluence Mod by Coolwave</summary>
+	<description lang="en">Confluence Mod for Helix</description>
+    <disclaimer lang="en">Confluence is based on the work of Jezz_X and Team XBMC</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>

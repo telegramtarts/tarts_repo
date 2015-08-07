@@ -29,9 +29,9 @@
 
 <addon id="repository.telegramtarts" name="Telegram Tarts Plugins" version="1.0.0" provider-name="Telegramtarts Group">
 	<extension point="xbmc.addon.repository" name="Telegram Tarts Plugins">
-		<info compressed="false">https://raw.githubusercontent.com/telegramtarts/tarts_repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/telegramtarts/tarts_repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/telegramtarts/tarts_repo/master/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/telegramtarts/tarts_repo/master/repository.telegramtarts/addon.xml</info>
+		<checksum>https://raw.githubusercontent.com/telegramtarts/tarts_repo/master/repository.telegramtarts/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/telegramtarts/tarts_repo/master/repository.telegramtarts/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Add-ons from Telegram Tarts Repository</summary>

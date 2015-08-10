@@ -222,12 +222,12 @@
   </extension>
 </addon>
 
-<addon id="skin.confluence.helix.collective.mod" name="Collective Helix Confluence Mod" provider-name="Coolwave" version="0.0.2">
+<addon id="skin.confluence.helix.collective.mod" name="Collective Helix Confluence Mod" provider-name="Coolwave" version="0.0.3">
   <requires>
 		<import addon="xbmc.gui" version="5.3.0" />
   </requires>
   <extension debugging="false" defaultthemename="textures.xbt" effectslowdown="0.75" point="xbmc.gui.skin">
-    <res aspect="16:9" default="true" folder="720p" height="720" width="1280" />
+    <res aspect="16:9" default="true" folder="1080p" height="1080" width="1920" />
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Collective Helix Confluence Mod by Coolwave</summary>

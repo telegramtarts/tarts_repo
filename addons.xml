@@ -285,7 +285,7 @@
 
 <addon id="skin.confluence.helix.collective.mod" name="Collective Helix Confluence Mod" provider-name="Coolwave" version="0.0.4">
   <requires>
-		<import addon="xbmc.gui" version="5.3.0" />
+		<import addon="xbmc.gui" version="5.3.1" />
   </requires>
   <extension debugging="false" defaultthemename="textures.xbt" effectslowdown="0.75" point="xbmc.gui.skin">
     <res aspect="16:9" default="true" folder="1080p" height="1080" width="1920" />
